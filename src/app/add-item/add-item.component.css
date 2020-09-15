@@ -1,0 +1,26 @@
+h1 {
+  font-size: 32px;
+  line-height: 28px;
+}
+
+.form {
+  text-align: center;
+}
+
+.form form {
+  display: inline-block;
+}
+
+.btn-add {
+  margin-left: 30px;
+}
+
+.input-search {
+  width: 400px;
+  height: 30px;
+
+  border: 1px solid #666766;
+  border-radius: 4px;
+  padding: 0 20px;
+}
+

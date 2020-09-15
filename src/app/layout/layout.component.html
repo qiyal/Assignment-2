@@ -1,0 +1,9 @@
+<div class="main">
+  <!-- component - 2 (AddItemComponent) -->
+  <app-add-item (todo)="updateTodoList($event)"></app-add-item>
+
+    <div class="todos-list">
+      <!--  component - 3 (ItemListComponent)  -->
+      <app-item-list [todoItems]="todoItems"></app-item-list>
+    </div>
+</div>

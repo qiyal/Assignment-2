@@ -1,0 +1,20 @@
+<mat-card class="card" *ngFor="let todo of todoItems">
+  <mat-card-header>
+
+    <div class="box">
+
+      <div class="l">
+        <mat-checkbox color="primary" class="checkbox"></mat-checkbox>
+        {{ todo.text }}
+      </div>
+
+      <div class="r">
+        <button mat-icon-button aria-label="delete">
+          <mat-icon color="accent">delete</mat-icon>
+        </button>
+      </div>
+
+    </div>
+
+  </mat-card-header>
+</mat-card>
