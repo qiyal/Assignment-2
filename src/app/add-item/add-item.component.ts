@@ -17,10 +17,10 @@ export class AddItemComponent implements OnInit {
   }
 
   addTodo() {
-    if (this.text) {
-      this.todo.emit(new Todo(this.id++, this.text));
+    if (this.text && this.text.trim()) {
+      this.todo.emit(new Todo(this.id++, this.text.trim()));
       this.text = '';
-      alert('New Todo created!');
+      // alert('New Todo created!');
     }
   }
 
